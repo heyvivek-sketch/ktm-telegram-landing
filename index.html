@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#100d0c">
+  <meta name="description" content="Join the KTM INVEST Telegram community for educational resources, discussions and announcements.">
+  <title>KTM INVEST • Official Community</title>
+  <link rel="icon" href="https://img.remit.ee/i/wassXrMpH8Fo">
+  <link rel="apple-touch-icon" href="https://img.remit.ee/i/wassXrMpH8Fo">
+  <style>
+    :root { color-scheme: dark; --bg:#0d0b0b; --text:#fffaf4; --muted:#b9aba6; --orange:#ff821e; --orange-2:#ffb04d; --line:rgba(255,255,255,.12); --card:#191514; }
+    * {box-sizing:border-box}
+    html {scroll-behavior:smooth}
+    body {margin:0;min-height:100svh;color:var(--text);font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);-webkit-font-smoothing:antialiased}
+    body::before {content:"";position:fixed;inset:0;pointer-events:none;z-index:-2;background:radial-gradient(ellipse 650px 540px at 49% 20%,rgba(224,91,26,.20),transparent 70%),radial-gradient(ellipse 600px 520px at 10% 88%,rgba(121,46,32,.14),transparent 75%),linear-gradient(145deg,#0c0b0b,#18100f 52%,#0e0b0b)}
+    body::after {content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;background-image:linear-gradient(rgba(255,255,255,.018) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.018) 1px,transparent 1px);background-size:38px 38px;mask-image:linear-gradient(to bottom,transparent,black 15%,black 60%,transparent)}
+    [hidden] {display:none!important}
+    a {color:inherit}
+    .page {width:min(100%,560px);padding:26px 19px 20px;margin:0 auto;min-height:100svh;display:flex;flex-direction:column;align-items:center;justify-content:center}
+    .brand {display:flex;align-items:center;justify-content:center;gap:10px;color:#fff;letter-spacing:.04em;font-size:15px;font-weight:900;margin-bottom:22px;text-decoration:none}
+    .brand-mark {width:38px;height:38px;display:grid;place-items:center;background:#231916;border:1px solid rgba(255,178,115,.22);border-radius:10px;overflow:hidden;box-shadow:0 5px 20px #fe731c2b}
+    .brand-mark img {width:100%;height:100%;object-fit:contain;display:block}
+    .status {padding:9px 13px;border:1px solid rgba(249,177,93,.25);background:rgba(255,166,77,.07);border-radius:99px;display:inline-flex;gap:8px;align-items:center;font-size:10px;font-weight:850;letter-spacing:.16em;color:#ffd0a1;text-transform:uppercase}
+    .status-dot {display:block;width:7px;height:7px;border-radius:50%;background:#5de3a3;box-shadow:0 0 0 4px rgba(67,226,147,.10),0 0 14px rgba(67,226,147,.7);animation:pulse 1.8s infinite}
+    .card {position:relative;width:100%;padding:31px 28px 24px;border:1px solid rgba(255,178,115,.22);border-radius:26px;background:linear-gradient(157deg,rgba(45,30,27,.94),rgba(24,20,19,.97) 49%,rgba(19,17,17,.98));box-shadow:0 24px 80px rgba(0,0,0,.35),0 0 50px rgba(255,103,32,.055),inset 0 1px rgba(255,255,255,.045);overflow:hidden;text-align:center}
+    .card::before {content:"";position:absolute;left:15%;right:15%;top:0;height:1px;background:linear-gradient(90deg,transparent,#ff8a42,transparent)}
+    .glow-orb {width:90px;height:90px;position:relative;margin:0 auto 18px;display:grid;place-items:center;border-radius:25px;background:#231916;border:1px solid rgba(255,178,115,.26);overflow:hidden;box-shadow:0 13px 45px rgba(241,97,17,.20)}
+    .glow-orb img {width:100%;height:100%;object-fit:contain;display:block}
+    .eyebrow {color:var(--orange-2);font-weight:850;letter-spacing:.16em;text-transform:uppercase;font-size:11px;margin:0 0 12px}
+    h1 {font-size:clamp(35px,7.8vw,52px);line-height:1.08;letter-spacing:-.058em;margin:0 0 14px;font-weight:900}
+    h1 span {display:block;color:var(--orange-2);background:linear-gradient(110deg,#ffbe66 18%,#ff7925 62%,#ffd297);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+    .lead {color:#d2c2ba;font-size:14px;line-height:1.65;max-width:385px;margin:0 auto 25px}
+    .join {position:relative;display:flex;gap:12px;justify-content:center;align-items:center;width:100%;min-height:62px;padding:14px 18px;border:0;border-radius:15px;background:linear-gradient(105deg,#ffbb55,#ff7b20 67%,#fb651c);font-size:16px;font-weight:900;letter-spacing:.04em;color:#25110a;text-decoration:none;box-shadow:0 10px 28px rgba(239,103,22,.25),inset 0 1px 1px rgba(255,255,255,.34);transition:transform .18s,box-shadow .18s;overflow:hidden}
+    .join::after {content:"";position:absolute;top:-45%;height:190%;left:-38%;width:24%;background:linear-gradient(90deg,transparent,#fff7,transparent);transform:skewX(-23deg);animation:shine 4s ease-in-out infinite}
+    .join:hover,.join:focus-visible {transform:translateY(-2px);box-shadow:0 15px 33px rgba(239,103,22,.39)}
+    .join:focus-visible,.register:focus-visible {outline:3px solid #fff;outline-offset:3px}
+    .join svg {flex-shrink:0}
+    .cta-caption {font-size:11px;color:#9f918c;margin:12px 0 0;display:flex;align-items:center;gap:5px;justify-content:center}
+    .benefits {display:grid;gap:10px;text-align:left;margin:24px 0 0;padding:20px 0 0;border-top:1px solid var(--line);list-style:none}
+    .benefits li {display:flex;align-items:flex-start;gap:10px;color:#eddfd9;font-weight:600;font-size:12.5px;line-height:1.45}
+    .tick {width:19px;height:19px;flex-shrink:0;display:grid;place-items:center;border-radius:50%;background:rgba(91,220,148,.12);color:#77e4ad}
+    .countdown {display:flex;align-items:center;justify-content:center;gap:12px;margin:20px 0 7px;padding:15px;background:rgba(255,255,255,.025);border:1px solid rgba(255,255,255,.075);border-radius:14px}
+    .timer {position:relative;width:52px;height:52px;display:grid;place-items:center;flex-shrink:0}
+    .timer svg {position:absolute;inset:0;transform:rotate(-90deg)}
+    .timer-bg {stroke:rgba(255,255,255,.09)}
+    .timer-fg {stroke:var(--orange);transition:stroke-dashoffset .32s linear}
+    .timer strong {font-size:22px;font-weight:850;letter-spacing:-.06em;font-variant-numeric:tabular-nums}
+    .timer-text {text-align:left;flex:1;min-width:0}
+    .timer-text strong {font-size:12px;display:block;margin-bottom:4px}
+    .timer-text span {color:#a99c97;font-size:11px;line-height:1.5;display:block}
+    .register {display:none;font-size:12px;justify-content:center;align-items:center;text-decoration:none;color:#ffc992;margin:16px auto 2px;gap:7px;font-weight:700}
+    .register.active {display:inline-flex}
+    .footer {margin-top:21px;text-align:center;max-width:490px}
+    .disclaimer {font-size:10px;line-height:1.65;color:#8f8481;margin:0}
+    .copyright {font-size:10px;color:#786b68;margin:13px 0 0}
+    .community-message {position:fixed;z-index:10;left:50%;bottom:22px;transform:translate(-50%,120px);width:max-content;max-width:calc(100vw - 32px);padding:12px 16px;background:#26211e;border:1px solid rgba(255,174,86,.22);border-radius:11px;box-shadow:0 14px 42px #0008;color:#eee3db;font-size:12px;line-height:1.4;text-align:center;opacity:0;transition:opacity .3s,transform .3s;pointer-events:none}
+    .community-message.active {transform:translate(-50%,0);opacity:1}
+    @keyframes shine {0%,55%,100%{left:-38%} 76%{left:125%}}
+    @keyframes pulse {50%{box-shadow:0 0 0 6px rgba(67,226,147,.04),0 0 18px rgba(67,226,147,.68)}}
+    @media (max-width:480px) {.page {justify-content:flex-start;padding-top:26px;padding-bottom:26px}.brand{margin-bottom:18px}.card{padding:30px 19px 20px;border-radius:23px}.glow-orb{width:80px;height:80px;border-radius:22px}.lead{font-size:13px;margin-bottom:22px}.join{min-height:58px}.benefits{margin-top:20px;padding-top:17px}}
+    @media (min-height:900px) {.page{justify-content:center}}
+    @media (prefers-reduced-motion:reduce) {*,*::before,*::after {animation-duration:.01ms!important;transition-duration:.01ms!important}}
+  </style>
+  <!-- Vercel Web Analytics: enable Web Analytics in your Vercel project dashboard. -->
+  <script defer src="/_vercel/insights/script.js"></script>
+</head>
+<body>
+  <main class="page">
+    <div class="brand" aria-label="KTM INVEST" id="topBrand">
+      <span class="brand-mark" aria-hidden="true"><img src="https://img.remit.ee/i/wassXrMpH8Fo" alt="" decoding="async"></span>
+      <span id="brandText">KTM INVEST</span>
+    </div>
+    <article class="card" aria-labelledby="heroHeading">
+      <div class="glow-orb" aria-hidden="true">
+        <img src="https://img.remit.ee/i/wassXrMpH8Fo" alt="" decoding="async" fetchpriority="high">
+      </div>
+      <p class="eyebrow" id="eyebrow">THE COMMUNITY STARTS HERE</p>
+      <h1 id="heroHeading">Your next move.<span>KTM INVEST.</span></h1>
+      <p class="lead" id="leadText">Join our Telegram community for educational insights, resources and the latest announcements.</p>
+      <a class="join" id="telegramBtn" href="https://t.me/+_whNRJ0Fif8yYWM1" aria-label="Join KTM INVEST Telegram community">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.7 4.4c.4-1.7-.7-2.4-2-1.9L2.4 9.3c-1.6.6-1.6 1.5-.3 2l4.4 1.4 1.8 5.8c.3.9.1 1.2 1.1 1.2.7 0 1-.3 1.4-.8l2.1-2.1 4.4 3.2c.8.4 1.3.2 1.5-.8L21.7 4.4Zm-13.7 8L18.4 6c.5-.3 1-.2.6.2l-8.6 7.8-.3 3.4-1.3-4.3-.8-.7Z"/></svg>
+        <span>JOIN TELEGRAM NOW</span>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 14 0m-6-6 6 6-6 6"/></svg>
+      </a>
+      <p class="cta-caption"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M8 11V7a4 4 0 0 1 8 0v4"/><rect x="5" y="11" width="14" height="10" rx="2"/></svg> Opens the Telegram app or website</p>
+      <ul class="benefits">
+        <li><span class="tick" aria-hidden="true">✓</span> Educational guides, insights and helpful resources</li>
+        <li><span class="tick" aria-hidden="true">✓</span> Updates and community announcements in one place</li>
+        <li><span class="tick" aria-hidden="true">✓</span> Connect, discuss and learn with the community</li>
+      </ul>
+      <section class="countdown" aria-live="off" id="countdownArea">
+        <div class="timer" aria-hidden="true"><svg width="52" height="52" viewBox="0 0 52 52"><circle class="timer-bg" cx="26" cy="26" r="22" stroke-width="4" fill="none"/><circle class="timer-fg" id="timerCircle" cx="26" cy="26" r="22" stroke-width="4" stroke-linecap="round" fill="none" stroke-dasharray="138.23" stroke-dashoffset="0"/></svg><strong id="seconds">03</strong></div>
+        <div class="timer-text"><strong id="timerTitle">Redirecting to Telegram</strong><span id="timerSubtitle">Automatic redirect in 3 seconds</span></div>
+      </section>
+      <a class="register" id="registerBtn" href="#">Register on website <span aria-hidden="true">↗</span></a>
+    </article>
+    <footer class="footer"><p class="disclaimer" id="disclaimer">Disclaimer: This community shares general educational information. It does not provide guaranteed returns or financial advice. Always assess risks independently.</p><p class="copyright" id="copyright">© 2026 KTM INVEST · Not affiliated with Telegram</p></footer>
+  </main>
+  <div class="community-message" id="toast" role="status" aria-live="polite">Join our Telegram community to stay updated.</div>
+  <script>
+    // Edit the details here. No developer tools or build process required.
+    const SITE_CONFIG = {
+      brand: "KTM INVEST",
+      titleLine: "Your next move.",
+      titleAccent: "KTM INVEST.",
+      eyebrow: "THE COMMUNITY STARTS HERE",
+      description: "Join our Telegram community for educational insights, resources and the latest announcements.",
+      telegramUrl: "https://t.me/+_whNRJ0Fif8yYWM1",
+      registrationUrl: "", // Optional: add your own registration page here
+      redirectEnabled: true, // Change to false to keep people on this page
+      redirectSeconds: 3,
+      disclaimer: "Disclaimer: This community shares general educational information. It does not provide guaranteed returns or financial advice. Always assess risks independently."
+    };
+    (() => {
+      const $ = (id) => document.getElementById(id);
+      const isHttpUrl = (value) => {try {return /^https?:$/.test(new URL(value).protocol)}catch{return false}};
+      const telegram = isHttpUrl(SITE_CONFIG.telegramUrl) ? SITE_CONFIG.telegramUrl : "https://t.me";
+      document.title = SITE_CONFIG.brand + " • Official Community";
+      $("brandText").textContent = SITE_CONFIG.brand;
+      $("eyebrow").textContent = SITE_CONFIG.eyebrow;
+      $("heroHeading").replaceChildren(document.createTextNode(SITE_CONFIG.titleLine), Object.assign(document.createElement('span'), {textContent:SITE_CONFIG.titleAccent}));
+      $("leadText").textContent = SITE_CONFIG.description;
+      $("telegramBtn").href = telegram;
+      $("telegramBtn").setAttribute('aria-label', 'Join ' + SITE_CONFIG.brand + ' on Telegram');
+      $("disclaimer").textContent = SITE_CONFIG.disclaimer;
+      $("copyright").textContent = `© ${new Date().getFullYear()} ${SITE_CONFIG.brand} · Not affiliated with Telegram`;
+      if (isHttpUrl(SITE_CONFIG.registrationUrl)) {$("registerBtn").href = SITE_CONFIG.registrationUrl; $("registerBtn").classList.add('active')}
+      const area = $("countdownArea"), secsEl = $("seconds"), circle = $("timerCircle");
+      let seconds = Math.max(1, Math.min(60, Math.floor(Number(SITE_CONFIG.redirectSeconds)||3)));
+      const total = seconds, length = 2*Math.PI*22;
+      let remaining = seconds, interval = null;
+      const format = n => String(n).padStart(2, '0');
+      const update = () => {secsEl.textContent=format(remaining);circle.style.strokeDashoffset=String(length*(1-remaining/total)); $("timerSubtitle").textContent = `Automatic redirect in ${remaining} second${remaining===1?'':'s'}`};
+      $("telegramBtn").addEventListener('click',() => {if(interval!==null) clearInterval(interval)});
+      if (!SITE_CONFIG.redirectEnabled) {area.hidden=true}
+      else {update();interval = setInterval(()=> {remaining -= 1;if(remaining <= 0){clearInterval(interval);secsEl.textContent='00';$("timerTitle").textContent='Opening Telegram…';$("timerSubtitle").textContent='If it does not open, use the button above.';window.location.replace(telegram);return} update()},1000)}
+      // Truthful helper notification; intentionally does not invent joining activity.
+      const toast = $("toast");
+      setTimeout(()=>{toast.classList.add('active');setTimeout(()=>toast.classList.remove('active'),3200)},2100);
+    })();
+  </script>
+</body>
+</html>
