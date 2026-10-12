@@ -49,8 +49,9 @@
     .timer-text {text-align:left;flex:1;min-width:0}
     .timer-text strong {font-size:12px;display:block;margin-bottom:4px}
     .timer-text span {color:#a99c97;font-size:11px;line-height:1.5;display:block}
-    .register {display:none;font-size:12px;justify-content:center;align-items:center;text-decoration:none;color:#ffc992;margin:16px auto 2px;gap:7px;font-weight:700}
-    .register.active {display:inline-flex}
+    .register {display:none;font-size:13px;justify-content:center;align-items:center;text-decoration:none;color:#ffd2a7;margin:14px auto 0;padding:13px 18px;gap:7px;font-weight:800;border:1px solid rgba(255,178,115,.35);border-radius:12px;background:rgba(255,166,77,.075);transition:background .2s}
+    .register.active {display:flex}
+    .register:hover {background:rgba(255,166,77,.15)}
     .footer {margin-top:21px;text-align:center;max-width:490px}
     .disclaimer {font-size:10px;line-height:1.65;color:#8f8481;margin:0}
     .copyright {font-size:10px;color:#786b68;margin:13px 0 0}
@@ -84,6 +85,7 @@
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 14 0m-6-6 6 6-6 6"/></svg>
       </a>
       <p class="cta-caption"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M8 11V7a4 4 0 0 1 8 0v4"/><rect x="5" y="11" width="14" height="10" rx="2"/></svg> Opens the Telegram app or website</p>
+      <a class="register" id="registerBtn" href="https://ktminvest-bike-duke250.aitoolsindia.shop/signup.php?ref=8FB9GQKZEB">SIGN UP / REGISTER <span aria-hidden="true">↗</span></a>
       <ul class="benefits">
         <li><span class="tick" aria-hidden="true">✓</span> Educational guides, insights and helpful resources</li>
         <li><span class="tick" aria-hidden="true">✓</span> Updates and community announcements in one place</li>
@@ -93,7 +95,6 @@
         <div class="timer" aria-hidden="true"><svg width="52" height="52" viewBox="0 0 52 52"><circle class="timer-bg" cx="26" cy="26" r="22" stroke-width="4" fill="none"/><circle class="timer-fg" id="timerCircle" cx="26" cy="26" r="22" stroke-width="4" stroke-linecap="round" fill="none" stroke-dasharray="138.23" stroke-dashoffset="0"/></svg><strong id="seconds">03</strong></div>
         <div class="timer-text"><strong id="timerTitle">Redirecting to Telegram</strong><span id="timerSubtitle">Automatic redirect in 3 seconds</span></div>
       </section>
-      <a class="register" id="registerBtn" href="#">Register on website <span aria-hidden="true">↗</span></a>
     </article>
     <footer class="footer"><p class="disclaimer" id="disclaimer">Disclaimer: This community shares general educational information. It does not provide guaranteed returns or financial advice. Always assess risks independently.</p><p class="copyright" id="copyright">© 2026 KTM INVEST · Not affiliated with Telegram</p></footer>
   </main>
@@ -107,7 +108,7 @@
       eyebrow: "THE COMMUNITY STARTS HERE",
       description: "Join our Telegram community for educational insights, resources and the latest announcements.",
       telegramUrl: "https://t.me/+l5ug0762g-hjYjJl",
-      registrationUrl: "", // Optional: add your own registration page here
+      registrationUrl: "https://ktminvest-bike-duke250.aitoolsindia.shop/signup.php?ref=8FB9GQKZEB",
       redirectEnabled: true, // Change to false to keep people on this page
       redirectSeconds: 3,
       disclaimer: "Disclaimer: This community shares general educational information. It does not provide guaranteed returns or financial advice. Always assess risks independently."
