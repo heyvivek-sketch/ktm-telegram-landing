@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#100d0c">
-  <meta name="description" content="Join the KTM INVEST Telegram community for educational resources, discussions and announcements.">
+  <meta name="description" content="Join the KTM INVEST WhatsApp and Telegram communities for educational resources, discussions and announcements.">
   <title>KTM INVEST • Official Community</title>
   <link rel="icon" href="https://img.remit.ee/i/wassXrMpH8Fo">
   <link rel="apple-touch-icon" href="https://img.remit.ee/i/wassXrMpH8Fo">
@@ -32,9 +32,11 @@
     h1 span {display:block;color:var(--orange-2);background:linear-gradient(110deg,#ffbe66 18%,#ff7925 62%,#ffd297);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent}
     .lead {color:#d2c2ba;font-size:14px;line-height:1.65;max-width:385px;margin:0 auto 25px}
     .join {position:relative;display:flex;gap:12px;justify-content:center;align-items:center;width:100%;min-height:62px;padding:14px 18px;border:0;border-radius:15px;background:linear-gradient(105deg,#ffbb55,#ff7b20 67%,#fb651c);font-size:16px;font-weight:900;letter-spacing:.04em;color:#25110a;text-decoration:none;box-shadow:0 10px 28px rgba(239,103,22,.25),inset 0 1px 1px rgba(255,255,255,.34);transition:transform .18s,box-shadow .18s;overflow:hidden}
+    .join.whatsapp {background:linear-gradient(105deg,#79eea3,#25d366 67%,#1ebd59);color:#07371d;box-shadow:0 10px 28px rgba(25,179,85,.24),inset 0 1px 1px rgba(255,255,255,.34)}
+    .join.whatsapp:hover,.join.whatsapp:focus-visible {box-shadow:0 15px 33px rgba(37,211,102,.36)}
     .join::after {content:"";position:absolute;top:-45%;height:190%;left:-38%;width:24%;background:linear-gradient(90deg,transparent,#fff7,transparent);transform:skewX(-23deg);animation:shine 4s ease-in-out infinite}
     .join:hover,.join:focus-visible {transform:translateY(-2px);box-shadow:0 15px 33px rgba(239,103,22,.39)}
-    .join:focus-visible,.register:focus-visible {outline:3px solid #fff;outline-offset:3px}
+    .join:focus-visible,.register:focus-visible,.telegram-secondary:focus-visible {outline:3px solid #fff;outline-offset:3px}
     .join svg {flex-shrink:0}
     .cta-caption {font-size:11px;color:#9f918c;margin:12px 0 0;display:flex;align-items:center;gap:5px;justify-content:center}
     .benefits {display:grid;gap:10px;text-align:left;margin:24px 0 0;padding:20px 0 0;border-top:1px solid var(--line);list-style:none}
@@ -49,6 +51,8 @@
     .timer-text {text-align:left;flex:1;min-width:0}
     .timer-text strong {font-size:12px;display:block;margin-bottom:4px}
     .timer-text span {color:#a99c97;font-size:11px;line-height:1.5;display:block}
+    .telegram-secondary {display:flex;align-items:center;justify-content:center;gap:8px;margin:14px auto 0;padding:13px 18px;border-radius:12px;border:1px solid rgba(255,178,115,.35);background:rgba(255,166,77,.075);color:#ffd2a7;font-size:13px;font-weight:800;text-decoration:none;transition:background .2s}
+    .telegram-secondary:hover {background:rgba(255,166,77,.15)}
     .register {display:none;font-size:13px;justify-content:center;align-items:center;text-decoration:none;color:#ffd2a7;margin:14px auto 0;padding:13px 18px;gap:7px;font-weight:800;border:1px solid rgba(255,178,115,.35);border-radius:12px;background:rgba(255,166,77,.075);transition:background .2s}
     .register.active {display:flex}
     .register:hover {background:rgba(255,166,77,.15)}
@@ -78,13 +82,14 @@
       </div>
       <p class="eyebrow" id="eyebrow">THE COMMUNITY STARTS HERE</p>
       <h1 id="heroHeading">Your next move.<span>KTM INVEST.</span></h1>
-      <p class="lead" id="leadText">Join our Telegram community for educational insights, resources and the latest announcements.</p>
-      <a class="join" id="telegramBtn" href="https://t.me/+_whNRJ0Fif8yYWM1" aria-label="Join KTM INVEST Telegram community">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.7 4.4c.4-1.7-.7-2.4-2-1.9L2.4 9.3c-1.6.6-1.6 1.5-.3 2l4.4 1.4 1.8 5.8c.3.9.1 1.2 1.1 1.2.7 0 1-.3 1.4-.8l2.1-2.1 4.4 3.2c.8.4 1.3.2 1.5-.8L21.7 4.4Zm-13.7 8L18.4 6c.5-.3 1-.2.6.2l-8.6 7.8-.3 3.4-1.3-4.3-.8-.7Z"/></svg>
-        <span>JOIN TELEGRAM NOW</span>
+      <p class="lead" id="leadText">Join our WhatsApp community for educational insights, resources and the latest announcements. You can also follow our Telegram community.</p>
+      <a class="join whatsapp" id="whatsappBtn" href="https://chat.whatsapp.com/ECd1pSh4htN3WgC9EGNh6k" aria-label="Join KTM INVEST WhatsApp community">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.52 3.48A11.86 11.86 0 0 0 12.05 0C5.45 0 .07 5.36.06 11.97c0 2.1.55 4.17 1.6 5.99L0 24l6.21-1.63A12 12 0 0 0 12.04 24h.01C18.66 24 24 18.64 24 12.03c0-3.2-1.24-6.2-3.48-8.55ZM12.05 21.97a9.95 9.95 0 0 1-5.07-1.39l-.36-.21-3.76.98 1-3.67-.23-.38A9.93 9.93 0 0 1 2.09 12c0-5.49 4.47-9.95 9.97-9.95a9.88 9.88 0 0 1 7.04 2.93 9.88 9.88 0 0 1 2.9 7.06c0 5.49-4.46 9.94-9.95 9.94Zm5.45-7.45c-.3-.15-1.77-.87-2.04-.97-.28-.1-.48-.15-.68.15-.2.3-.78.97-.95 1.17-.18.2-.35.22-.65.08-.3-.15-1.27-.47-2.42-1.5-.89-.79-1.49-1.77-1.66-2.07-.18-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.38-.03-.53-.07-.15-.67-1.63-.92-2.23-.24-.58-.49-.5-.68-.51h-.58c-.2 0-.53.08-.8.38-.28.3-1.05 1.03-1.05 2.5s1.08 2.9 1.23 3.1c.15.2 2.12 3.23 5.14 4.53.72.31 1.28.49 1.71.63.72.23 1.38.2 1.9.12.58-.09 1.77-.72 2.02-1.42.25-.7.25-1.31.18-1.43-.08-.13-.28-.2-.58-.35Z"/></svg>
+        <span>JOIN WHATSAPP COMMUNITY</span>
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 14 0m-6-6 6 6-6 6"/></svg>
       </a>
-      <p class="cta-caption"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M8 11V7a4 4 0 0 1 8 0v4"/><rect x="5" y="11" width="14" height="10" rx="2"/></svg> Opens the Telegram app or website</p>
+      <p class="cta-caption">Opens the WhatsApp app or website</p>
+      <a class="telegram-secondary" id="telegramBtn" href="https://t.me/+l5ug0762g-hjYjJl">JOIN TELEGRAM COMMUNITY <span aria-hidden="true">↗</span></a>
       <a class="register" id="registerBtn" href="https://ktminvest-bike-duke250.aitoolsindia.shop/signup.php?ref=8FB9GQKZEB">SIGN UP / REGISTER <span aria-hidden="true">↗</span></a>
       <ul class="benefits">
         <li><span class="tick" aria-hidden="true">✓</span> Educational guides, insights and helpful resources</li>
@@ -93,12 +98,12 @@
       </ul>
       <section class="countdown" aria-live="off" id="countdownArea">
         <div class="timer" aria-hidden="true"><svg width="52" height="52" viewBox="0 0 52 52"><circle class="timer-bg" cx="26" cy="26" r="22" stroke-width="4" fill="none"/><circle class="timer-fg" id="timerCircle" cx="26" cy="26" r="22" stroke-width="4" stroke-linecap="round" fill="none" stroke-dasharray="138.23" stroke-dashoffset="0"/></svg><strong id="seconds">03</strong></div>
-        <div class="timer-text"><strong id="timerTitle">Redirecting to Telegram</strong><span id="timerSubtitle">Automatic redirect in 3 seconds</span></div>
+        <div class="timer-text"><strong id="timerTitle">Redirecting to WhatsApp</strong><span id="timerSubtitle">Automatic redirect in 3 seconds</span></div>
       </section>
     </article>
-    <footer class="footer"><p class="disclaimer" id="disclaimer">Disclaimer: This community shares general educational information. It does not provide guaranteed returns or financial advice. Always assess risks independently.</p><p class="copyright" id="copyright">© 2026 KTM INVEST · Not affiliated with Telegram</p></footer>
+    <footer class="footer"><p class="disclaimer" id="disclaimer">Disclaimer: This community shares general educational information. It does not provide guaranteed returns or financial advice. Always assess risks independently.</p><p class="copyright" id="copyright">© 2026 KTM INVEST · Not affiliated with WhatsApp or Telegram</p></footer>
   </main>
-  <div class="community-message" id="toast" role="status" aria-live="polite">Join our Telegram community to stay updated.</div>
+  <div class="community-message" id="toast" role="status" aria-live="polite">Join our WhatsApp community to stay updated.</div>
   <script>
     // Edit the details here. No developer tools or build process required.
     const SITE_CONFIG = {
@@ -108,6 +113,7 @@
       eyebrow: "THE COMMUNITY STARTS HERE",
       description: "Join our Telegram community for educational insights, resources and the latest announcements.",
       telegramUrl: "https://t.me/+l5ug0762g-hjYjJl",
+      whatsappUrl: "https://chat.whatsapp.com/ECd1pSh4htN3WgC9EGNh6k",
       registrationUrl: "https://ktminvest-bike-duke250.aitoolsindia.shop/signup.php?ref=8FB9GQKZEB",
       redirectEnabled: true, // Change to false to keep people on this page
       redirectSeconds: 3,
@@ -117,15 +123,17 @@
       const $ = (id) => document.getElementById(id);
       const isHttpUrl = (value) => {try {return /^https?:$/.test(new URL(value).protocol)}catch{return false}};
       const telegram = isHttpUrl(SITE_CONFIG.telegramUrl) ? SITE_CONFIG.telegramUrl : "https://t.me";
+      const whatsapp = isHttpUrl(SITE_CONFIG.whatsappUrl) ? SITE_CONFIG.whatsappUrl : "https://www.whatsapp.com";
       document.title = SITE_CONFIG.brand + " • Official Community";
       $("brandText").textContent = SITE_CONFIG.brand;
       $("eyebrow").textContent = SITE_CONFIG.eyebrow;
       $("heroHeading").replaceChildren(document.createTextNode(SITE_CONFIG.titleLine), Object.assign(document.createElement('span'), {textContent:SITE_CONFIG.titleAccent}));
       $("leadText").textContent = SITE_CONFIG.description;
       $("telegramBtn").href = telegram;
+      $("whatsappBtn").href = whatsapp;
       $("telegramBtn").setAttribute('aria-label', 'Join ' + SITE_CONFIG.brand + ' on Telegram');
       $("disclaimer").textContent = SITE_CONFIG.disclaimer;
-      $("copyright").textContent = `© ${new Date().getFullYear()} ${SITE_CONFIG.brand} · Not affiliated with Telegram`;
+      $("copyright").textContent = `© ${new Date().getFullYear()} ${SITE_CONFIG.brand} · Not affiliated with WhatsApp or Telegram`;
       if (isHttpUrl(SITE_CONFIG.registrationUrl)) {$("registerBtn").href = SITE_CONFIG.registrationUrl; $("registerBtn").classList.add('active')}
       const area = $("countdownArea"), secsEl = $("seconds"), circle = $("timerCircle");
       let seconds = Math.max(1, Math.min(60, Math.floor(Number(SITE_CONFIG.redirectSeconds)||3)));
@@ -133,9 +141,9 @@
       let remaining = seconds, interval = null;
       const format = n => String(n).padStart(2, '0');
       const update = () => {secsEl.textContent=format(remaining);circle.style.strokeDashoffset=String(length*(1-remaining/total)); $("timerSubtitle").textContent = `Automatic redirect in ${remaining} second${remaining===1?'':'s'}`};
-      $("telegramBtn").addEventListener('click',() => {if(interval!==null) clearInterval(interval)});
+      ["telegramBtn", "whatsappBtn", "registerBtn"].forEach(id => $(id).addEventListener("click", () => { if (interval !== null) clearInterval(interval) }));
       if (!SITE_CONFIG.redirectEnabled) {area.hidden=true}
-      else {update();interval = setInterval(()=> {remaining -= 1;if(remaining <= 0){clearInterval(interval);secsEl.textContent='00';$("timerTitle").textContent='Opening Telegram…';$("timerSubtitle").textContent='If it does not open, use the button above.';window.location.replace(telegram);return} update()},1000)}
+      else {update();interval = setInterval(()=> {remaining -= 1;if(remaining <= 0){clearInterval(interval);secsEl.textContent='00';$("timerTitle").textContent='Opening WhatsApp…';$("timerSubtitle").textContent='If it does not open, use the button above.';window.location.replace(whatsapp);return} update()},1000)}
       // Truthful helper notification; intentionally does not invent joining activity.
       const toast = $("toast");
       setTimeout(()=>{toast.classList.add('active');setTimeout(()=>toast.classList.remove('active'),3200)},2100);
